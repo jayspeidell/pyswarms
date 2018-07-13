@@ -187,7 +187,7 @@ def plot_contour(
         # If no Designer class supplied, use defaults
         if designer is None:
             designer = Designer(
-                limits=[(-1, 1), (-1, 1)], label=["x-axis", "y-axis"]
+                limits=[(-1, 1), (-1, 1)], label=["x-axis", "y-axis", "z-axis"]
             )
 
         # If no Animator class supplied, use defaults
